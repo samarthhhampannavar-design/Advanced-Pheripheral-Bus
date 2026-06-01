@@ -7,8 +7,8 @@ module apb_slave(
   input PENABLE,
   input in_wait,
   input [3:0]  PSTRB,
-  input [31:0] PWDATA,       // was missing
-  output reg [31:0] PRDATA,  // fix: semicolon → comma
+  input [31:0] PWDATA,       
+  output reg [31:0] PRDATA,  
   output reg PREADY
 );
 
