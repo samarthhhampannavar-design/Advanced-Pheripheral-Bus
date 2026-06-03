@@ -28,7 +28,7 @@ module top (
     .in_mul_transfer(in_mul_transfer),
     .stop          (stop),
     .PADDR_dr      (ADDR),
-    .PSELx_dr      (PSEL),
+    .PSELx_dr      (PSELx),
     .PWDATA_dr     (PWDATA),
     .PWRITE_dr     (PWRITE),
     .PSTRB_dr      (PSTRB),
